@@ -1,12 +1,12 @@
 """Génère l'affiche du jour à partir d'un fichier JSON.
 
-Usage : python3 outil/generer.py edition.json affiches/AAAA-MM-JJ.png
+Usage : python3 outil/generer.py edition.json affiches/AAAA-MM-JJ.jpg  (JPG obligatoire pour TikTok)
 
 Format du JSON :
 {
   "date": "Mercredi 18 novembre 2026",
   "items": [
-    {"tag": "CAN 2027", "title": "Titre court", "detail": "Une phrase.", "react": "Petite phrase pour faire réagir 🤔"},
+    {"tag": "CAN 2027", "title": "Titre court", "detail": "Une phrase.", "react": "Petite phrase pour faire réagir 🤔", "source": "Média 1 · Média 2"},
     ... (5 éléments)
   ]
 }
@@ -27,7 +27,7 @@ def construire_html(data: dict) -> str:
     for i, it in enumerate(data["items"][:5], start=1):
         items.append(
             '<div class="item"><div class="num">%d</div><div class="txt">'
-            '<div class="tag">%s</div><div class="title">%s</div><div class="detail">%s</div>%s'
+            '<div class="tag">%s</div><div class="title">%s</div><div class="detail">%s</div><div class="row">%s%s</div>'
             "</div></div>"
             % (
                 i,
@@ -35,6 +35,7 @@ def construire_html(data: dict) -> str:
                 html.escape(it["title"]),
                 html.escape(it["detail"]),
                 '<div class="react">%s</div>' % html.escape(it["react"]) if it.get("react") else "",
+                '<div class="src">Source : %s</div>' % html.escape(it["source"]) if it.get("source") else "",
             )
         )
     return gabarit.replace("{{DATE}}", html.escape(data["date"])).replace("{{ITEMS}}", "".join(items))
@@ -51,7 +52,10 @@ def main() -> None:
         page = nav.new_page(viewport={"width": 1080, "height": 1350})
         page.goto(page_html.as_uri())
         page.wait_for_timeout(400)
-        page.screenshot(path=str(sortie), type="png")
+        if sortie.suffix.lower() in (".jpg", ".jpeg"):
+            page.screenshot(path=str(sortie), type="jpeg", quality=92)
+        else:
+            page.screenshot(path=str(sortie), type="png")
         nav.close()
     page_html.unlink()
     print(sortie)
