@@ -6,7 +6,7 @@ Format du JSON :
 {
   "date": "Mercredi 18 novembre 2026",
   "items": [
-    {"tag": "CAN 2027", "title": "Titre court", "detail": "Une phrase."},
+    {"tag": "CAN 2027", "title": "Titre court", "detail": "Une phrase.", "react": "Petite phrase pour faire réagir 🤔"},
     ... (5 éléments)
   ]
 }
@@ -27,9 +27,15 @@ def construire_html(data: dict) -> str:
     for i, it in enumerate(data["items"][:5], start=1):
         items.append(
             '<div class="item"><div class="num">%d</div><div class="txt">'
-            '<div class="tag">%s</div><div class="title">%s</div><div class="detail">%s</div>'
+            '<div class="tag">%s</div><div class="title">%s</div><div class="detail">%s</div>%s'
             "</div></div>"
-            % (i, html.escape(it["tag"]), html.escape(it["title"]), html.escape(it["detail"]))
+            % (
+                i,
+                html.escape(it["tag"]),
+                html.escape(it["title"]),
+                html.escape(it["detail"]),
+                '<div class="react">%s</div>' % html.escape(it["react"]) if it.get("react") else "",
+            )
         )
     return gabarit.replace("{{DATE}}", html.escape(data["date"])).replace("{{ITEMS}}", "".join(items))
 
