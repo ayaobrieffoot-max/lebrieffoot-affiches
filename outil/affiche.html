@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #04140c;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  /* fond : pelouse sombre + halo */
+  .bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 900px 600px at 85% -5%, rgba(255,206,0,.28), transparent 60%),
+      radial-gradient(ellipse 700px 700px at -10% 105%, rgba(210,16,52,.30), transparent 60%),
+      repeating-linear-gradient(90deg, #06301a 0 120px, #052914 120px 240px);
+  }
+  .bg::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(4,20,12,.15) 0%, rgba(4,20,12,.75) 45%, rgba(4,20,12,.92) 100%);
+  }
+  svg.pitch { position: absolute; inset: 0; opacity: .07; }
+  /* bandes drapeau */
+  .stripes { position: absolute; top: 0; right: 0; width: 420px; height: 420px; overflow: hidden; }
+  .stripes span {
+    position: absolute; width: 760px; height: 38px; left: -60px;
+    transform: rotate(45deg); transform-origin: center;
+  }
+  .stripes span:nth-child(1) { top: 120px; background: #ffce00; }
+  .stripes span:nth-child(2) { top: 176px; background: #006a4e; }
+  .stripes span:nth-child(3) { top: 232px; background: #d21034; }
+
+  .wrap { position: relative; padding: 64px 64px 0; height: 100%; display: flex; flex-direction: column; }
+  .kicker {
+    display: inline-flex; align-items: center; gap: 12px;
+    font-weight: 800; font-size: 22px; letter-spacing: 6px; text-transform: uppercase; color: #ffce00;
+  }
+  .kicker .dot { width: 14px; height: 14px; border-radius: 50%; background: #d21034; box-shadow: 0 0 0 6px rgba(210,16,52,.25); }
+  h1 {
+    font-family: 'Anton', sans-serif; font-weight: 400;
+    font-size: 132px; line-height: .95; letter-spacing: 1px; margin-top: 14px; text-transform: uppercase;
+  }
+  h1 .y { color: #ffce00; }
+  .sub { display: flex; align-items: center; gap: 18px; margin-top: 14px; }
+  .sub .brand {
+    font-family: 'Anton', sans-serif; font-size: 40px; letter-spacing: 2px;
+    background: #fff; color: #04140c; padding: 4px 18px 6px;
+  }
+  .sub .date { font-size: 26px; font-weight: 700; color: rgba(255,255,255,.85); text-transform: uppercase; letter-spacing: 3px; }
+
+  .list { margin: 30px 0 34px; display: flex; flex-direction: column; justify-content: space-between; flex: 1; }
+  .item {
+    display: flex; align-items: stretch; gap: 0;
+    background: rgba(255,255,255,.07);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 22px; overflow: hidden;
+    backdrop-filter: blur(4px);
+  }
+  .num {
+    flex: 0 0 110px; display: flex; align-items: center; justify-content: center;
+    font-family: 'Anton', sans-serif; font-size: 84px; color: #04140c; background: #ffce00;
+  }
+  .item:nth-child(2) .num { background: #ffffff; }
+  .item:nth-child(3) .num { background: #d21034; color: #fff; }
+  .item:nth-child(4) .num { background: #ffffff; }
+  .item:nth-child(5) .num { background: #ffce00; }
+  .txt { padding: 16px 26px; display: flex; flex-direction: column; justify-content: center; gap: 6px; }
+  .tag { font-size: 17px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; color: #ffce00; }
+  .title { font-family: 'Anton', sans-serif; font-size: 42px; line-height: 1.02; text-transform: uppercase; }
+  .detail { font-size: 21px; line-height: 1.3; color: rgba(255,255,255,.82); font-weight: 500; }
+
+  .foot {
+    margin: 0 -64px; padding: 22px 64px 26px;
+    background: #ffce00; color: #04140c;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .foot .l { font-family: 'Anton', sans-serif; font-size: 34px; letter-spacing: 1px; text-transform: uppercase; }
+  .foot .r { font-size: 22px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; }
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+  <svg class="pitch" viewBox="0 0 1080 1350" fill="none" stroke="#fff" stroke-width="4">
+    <rect x="40" y="40" width="1000" height="1270"/>
+    <line x1="40" y1="675" x2="1040" y2="675"/>
+    <circle cx="540" cy="675" r="150"/>
+    <rect x="290" y="40" width="500" height="200"/>
+    <rect x="290" y="1110" width="500" height="200"/>
+  </svg>
+  <div class="stripes"><span></span><span></span><span></span></div>
+
+  <div class="wrap">
+    <div class="kicker"><span class="dot"></span>Les 5 infos du jour</div>
+    <h1>Le Brief <span class="y">Foot</span></h1>
+    <div class="sub"><span class="brand">D'AMM</span><span class="date">{{DATE}}</span></div>
+
+    <div class="list">{{ITEMS}}</div>
+
+    <div class="foot">
+      <span class="l">Ton avis en commentaire 👇</span>
+      <span class="r">Chaque jour · 10h</span>
+    </div>
+  </div>
+</body>
+</html>
