@@ -1,0 +1,40 @@
+{
+  "date": "Jeudi 19 novembre 2026",
+  "items": [
+    {
+      "tag": "Bleus",
+      "title": "Espagne, Pays-Bas ou Norvège ?",
+      "detail": "Tirage des quarts de Ligue des nations vendredi midi à Nyon.",
+      "react": "Tu veux qui pour les Bleus ? 🤔",
+      "source": "Foot Mercato · Le Petit Lillois"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "Oliveira quitte Strasbourg",
+      "detail": "Le Portugais Vítor Matos, ex-Swansea, prend la suite jusqu'en 2030.",
+      "react": "Matos, le sauveur du Racing ? 👀",
+      "source": "Eurosport · Ouest-France"
+    },
+    {
+      "tag": "Classement FIFA",
+      "title": "Le Maroc 5e, record historique",
+      "detail": "Les Lions passent devant Portugal et Brésil, la France reste 3e.",
+      "react": "L'Afrique frappe à la porte 🦁🔥",
+      "source": "Maxifoot · Le Phocéen"
+    },
+    {
+      "tag": "C1 féminine",
+      "title": "Le PSG cède à Chelsea",
+      "detail": "Buurman marque en fin de match et offre le 1-0 aux Blues.",
+      "react": "Si près du nul… rageant ! 😩",
+      "source": "Sky Sports · VAVEL"
+    },
+    {
+      "tag": "Amical",
+      "title": "L'Argentine passe un 7-0",
+      "detail": "Doublés de Paz, Álvarez et Mastantuono contre le Costa Rica.",
+      "react": "La relève est déjà là ? 🇦🇷😮",
+      "source": "ESPN · VAVEL"
+    }
+  ]
+}
