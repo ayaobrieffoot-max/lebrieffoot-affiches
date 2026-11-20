@@ -6,47 +6,54 @@
   "vedette": {
     "titre": "Journée mondiale de l'enfance",
     "texte": "Le 20/11/1989, l'ONU adopte la Convention des droits de l'enfant. 196 États l'ont ratifiée.",
-    "illustration": "enfants"
+    "illustration": "enfants",
+    "source": "UNICEF · ONU"
   },
   "cartes": [
     {
       "zone": "AFRIQUE",
       "drapeau": "afrique",
       "titre": "Industrialisation de l'Afrique",
-      "texte": "Proclamée par l'ONU en 1989 : l'industrie, moteur d'emplois."
+      "texte": "Proclamée par l'ONU en 1989 : l'industrie, moteur d'emplois.",
+      "source": "ONU · Union africaine"
     },
     {
       "zone": "MEXIQUE",
       "drapeau": "mexique",
       "titre": "Jour de la Révolution",
-      "texte": "La Révolution mexicaine a commencé le 20 novembre 1910."
+      "texte": "La Révolution mexicaine a commencé le 20 novembre 1910.",
+      "source": "Loi fédérale du travail (Mexique)"
     },
     {
       "zone": "BRÉSIL",
       "drapeau": "bresil",
       "titre": "Jour de la Conscience noire",
-      "texte": "Hommage à Zumbi dos Palmares, héros afro-brésilien mort en 1695."
+      "texte": "Hommage à Zumbi dos Palmares, héros afro-brésilien mort en 1695.",
+      "source": "Loi n° 14.759/2023 (Brésil)"
     },
     {
       "zone": "ARGENTINE",
       "drapeau": "argentine",
       "titre": "Souveraineté nationale",
-      "texte": "Souvenir de la bataille de la Vuelta de Obligado (1845)."
+      "texte": "Souvenir de la bataille de la Vuelta de Obligado (1845).",
+      "source": "Loi n° 20.770 (Argentine)"
     },
     {
       "zone": "VIETNAM",
       "drapeau": "vietnam",
       "titre": "Journée des enseignants",
-      "texte": "Le pays rend hommage à ses professeurs depuis 1982."
+      "texte": "Le pays rend hommage à ses professeurs depuis 1982.",
+      "source": "Décision 167-HĐBT (Vietnam, 1982)"
     },
     {
       "zone": "MONDE",
       "drapeau": "trans",
       "titre": "Journée du souvenir trans",
-      "texte": "Depuis 1999, en mémoire des personnes trans victimes de violences."
+      "texte": "Depuis 1999, en mémoire des personnes trans victimes de violences.",
+      "source": "TGEU · associations LGBT+"
     }
   ],
-  "source": "ONU · UNICEF · UA",
+  "source": "Faits vérifiés auprès de sources officielles",
   "c1": "#ffd23f",
   "c2": "#ff8a3d",
   "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !"

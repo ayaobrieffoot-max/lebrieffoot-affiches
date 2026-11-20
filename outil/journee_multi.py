@@ -56,6 +56,8 @@ h1 span{display:block;font-size:.42em;letter-spacing:1px;margin-top:12px;color:#
 .card .f svg{width:%(fw)spx;height:auto;border-radius:6px;display:block;box-shadow:0 0 0 2px rgba(255,255,255,.25)}
 .card .z{font-size:16px;font-weight:900;letter-spacing:3px;color:%(c1)s}
 .card h3{font-size:%(h3)spx;font-weight:900;line-height:1.1;margin-top:4px}
+.card .s{font-size:%(sf)spx;font-weight:600;margin-top:6px;color:rgba(255,255,255,.55)}
+.hero .s{font-size:%(sf)spx;font-weight:600;margin-top:8px;color:#6b6b8a}
 .card p{font-size:%(cpf)spx;font-weight:500;line-height:1.28;margin-top:6px;color:rgba(255,255,255,.82)}
 .ask{background:#fff;border-radius:22px;padding:%(ap)spx 24px;text-align:center;font-weight:900;font-size:%(af)spx;line-height:1.2}
 .pied{display:flex;justify-content:space-between;align-items:center;font-size:20px;font-weight:700;color:rgba(18,18,58,.75)}
@@ -63,18 +65,18 @@ h1 span{display:block;font-size:.42em;letter-spacing:1px;margin-top:12px;color:#
 </style></head><body><div class="wrap">
 <div class="top"><div class="brand">CE QUE CE JOUR NOUS DIT, <b>AVEC AMM</b></div></div>
 <div class="head"><div class="cal"><div class="m">%(mois)s</div><div class="d">%(jour)s</div></div><h1>%(accroche)s<span>%(sous)s</span></h1></div>
-<div class="hero"><div class="t"><div class="z">MONDE · ONU</div><h2>%(vt)s</h2><p>%(vx)s</p></div><div class="illu">%(illu_svg)s</div></div>
+<div class="hero"><div class="t"><div class="z">MONDE · ONU</div><h2>%(vt)s</h2><p>%(vx)s</p><div class="s">Source : %(vs)s</div></div><div class="illu">%(illu_svg)s</div></div>
 <div class="grid">%(cartes)s</div>
 <div class="ask">%(question)s</div>
-<div class="pied"><span class="share">Partagez !</span><span>Sources : %(source)s</span></div>
+<div class="pied"><span class="share">Partagez !</span><span>%(source)s</span></div>
 </div></body></html>"""
 
 
 def construire(d, H):
     tall = H >= 1700
     cartes = "".join(
-        '<div class="card"><div class="f">%s</div><div><div class="z">%s</div><h3>%s</h3><p>%s</p></div></div>'
-        % (DRAPEAUX.get(c["drapeau"], DRAPEAUX["monde"]), e(c["zone"]), e(c["titre"]), e(c["texte"]))
+        '<div class="card"><div class="f">%s</div><div><div class="z">%s</div><h3>%s</h3><p>%s</p><div class="s">Source : %s</div></div></div>'
+        % (DRAPEAUX.get(c["drapeau"], DRAPEAUX["monde"]), e(c["zone"]), e(c["titre"]), e(c["texte"]), e(c.get("source", "")))
         for c in d["cartes"][:6]
     )
     v = d["vedette"]
@@ -84,7 +86,7 @@ def construire(d, H):
         h1=84 if tall else 70, h2=40 if tall else 34, hp=24 if tall else 21, illu=480 if tall else 420,
         h3=32 if tall else 26, cpf=24 if tall else 19, cp=26 if tall else 18,
         mois=e(d["mois"]), jour=e(d["jour"]), accroche=e(d["accroche"]), sous=e(d.get("sous", "")),
-        vt=e(v["titre"]), vx=e(v["texte"]), illu_svg=enfants_svg() if v.get("illustration") == "enfants" else "",
+        vt=e(v["titre"]), vx=e(v["texte"]), vs=e(v.get("source", "")), sf=17 if tall else 14, illu_svg=enfants_svg() if v.get("illustration") == "enfants" else "",
         cartes=cartes, source=e(d.get("source", "")), question=e(d.get("question", "")),
         ggap=22 if tall else 16, fw=84 if tall else 70, ap=30 if tall else 18, af=38 if tall else 30,
     )
@@ -96,7 +98,13 @@ def main():
     tmp = ICI / "_rendu_multi.html"; tmp.write_text(construire(d, H), encoding="utf-8")
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path="/usr/bin/google-chrome")
-        pg = b.new_page(viewport={"width": 1080, "height": H}); pg.goto(tmp.as_uri()); pg.wait_for_timeout(400)
+        pg = b.new_page(viewport={"width": 1080, "height": H}); pg.goto(tmp.as_uri()); pg.wait_for_timeout(300)
+        z = pg.evaluate('''(H) => { const w=document.querySelector('.wrap'); const g=document.querySelector('.grid');
+            g.style.flex='none'; let z=1;
+            const fits=()=>w.scrollHeight<=w.clientHeight+1;
+            while(!fits() && z>0.6){ z-=0.02; w.style.zoom=z; w.style.width=(1080/z)+'px'; w.style.height=(H/z)+'px'; }
+            g.style.flex='1'; return z; }''', H)
+        print('zoom', round(z, 2)); pg.wait_for_timeout(200)
         pg.screenshot(path=str(out), type="jpeg", quality=92); b.close()
     tmp.unlink(); print(out)
 
