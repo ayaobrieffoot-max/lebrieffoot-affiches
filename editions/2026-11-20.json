@@ -1,0 +1,40 @@
+{
+  "date": "Vendredi 20 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue 1",
+      "title": "Le PSG relance la machine à Nice",
+      "detail": "Fin de la trêve : Paris se déplace à l'Allianz Riviera samedi.",
+      "react": "Nice peut-il piéger Paris ? 🦅",
+      "source": "Paris Supporters · Sortir à Paris"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "Déjà 5 changements de coach",
+      "detail": "Strasbourg, Lens (deux fois), Le Havre et l'OL ont changé de banc.",
+      "react": "Qui sera le prochain ? 🪑😬",
+      "source": "Le Petit Lillois · Ouest-France"
+    },
+    {
+      "tag": "Liga",
+      "title": "Tchouaméni de retour au Real",
+      "detail": "Lui et Bernardo Silva ont repris le collectif avant le Celta samedi.",
+      "react": "Mourinho respire enfin ? 😮‍💨",
+      "source": "Comuniate · OKDIARIO"
+    },
+    {
+      "tag": "Liga",
+      "title": "Koundé reprend avec le Barça",
+      "detail": "Le Français vise Villarreal dimanche, Cubarsí reste en doute.",
+      "react": "Le Barça récupère son pilier ? 💪",
+      "source": "Goal · LiveScore"
+    },
+    {
+      "tag": "LDC CAF",
+      "title": "J-7 avant les poules africaines",
+      "detail": "Zamalek, Young Africans, MC Alger et Club Africain dans le groupe B.",
+      "react": "Le vrai groupe de la mort ? 🔥",
+      "source": "Afrik-Foot · Foot Africa"
+    }
+  ]
+}
