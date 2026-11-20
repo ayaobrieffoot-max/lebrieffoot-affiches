@@ -5,11 +5,13 @@ Usage : python3 outil/journee_multi.py journees/AAAA-MM-JJ-multi.json SORTIE.jpg
 JSON :
 {
   "jour": "20", "mois": "NOVEMBRE", "accroche": "7 causes, 1 seule date",
-  "vedette": {"titre": "...", "texte": "...", "illustration": "enfants"},
-  "cartes": [{"zone": "AFRIQUE", "drapeau": "afrique", "titre": "...", "texte": "..."}, ...]  (6 max)
+  "vedette": {"zone": "MONDE · ONU", "titre": "...", "texte": "...", "source": "...", "illustration": "enfants" | "monde" | "aucune"},
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "cartes": [{"zone": "AFRIQUE", "drapeau": "afrique", "titre": "...", "texte": "...", "source": "..."}, ...]  (6 max)
   "source": "...", "c1": "#ffd23f", "c2": "#ff8a3d"
 }
-drapeau : mexique, bresil, argentine, vietnam, trans, afrique, monde
+drapeau : mexique, bresil, argentine, vietnam, trans, afrique, monde (sinon ajouter un SVG simple dans DRAPEAUX)
+La taille se réduit automatiquement si le contenu déborde.
 """
 import html, json, sys
 from pathlib import Path
@@ -17,7 +19,7 @@ from playwright.sync_api import sync_playwright
 
 ICI = Path(__file__).resolve().parent
 sys.path.insert(0, str(ICI))
-from journee2 import enfants_svg  # noqa: E402
+from journee2 import enfants_svg, monde_svg  # noqa: E402
 
 e = html.escape
 
@@ -65,7 +67,7 @@ h1 span{display:block;font-size:.42em;letter-spacing:1px;margin-top:12px;color:#
 </style></head><body><div class="wrap">
 <div class="top"><div class="brand">CE QUE CE JOUR NOUS DIT, <b>AVEC AMM</b></div></div>
 <div class="head"><div class="cal"><div class="m">%(mois)s</div><div class="d">%(jour)s</div></div><h1>%(accroche)s<span>%(sous)s</span></h1></div>
-<div class="hero"><div class="t"><div class="z">MONDE · ONU</div><h2>%(vt)s</h2><p>%(vx)s</p><div class="s">Source : %(vs)s</div></div><div class="illu">%(illu_svg)s</div></div>
+<div class="hero"><div class="t"><div class="z">%(vz)s</div><h2>%(vt)s</h2><p>%(vx)s</p><div class="s">Source : %(vs)s</div></div><div class="illu">%(illu_svg)s</div></div>
 <div class="grid">%(cartes)s</div>
 <div class="ask">%(question)s</div>
 <div class="pied"><span class="share">Partagez !</span><span>%(source)s</span></div>
@@ -86,7 +88,7 @@ def construire(d, H):
         h1=84 if tall else 70, h2=40 if tall else 34, hp=24 if tall else 21, illu=480 if tall else 420,
         h3=32 if tall else 26, cpf=24 if tall else 19, cp=26 if tall else 18,
         mois=e(d["mois"]), jour=e(d["jour"]), accroche=e(d["accroche"]), sous=e(d.get("sous", "")),
-        vt=e(v["titre"]), vx=e(v["texte"]), vs=e(v.get("source", "")), sf=17 if tall else 14, illu_svg=enfants_svg() if v.get("illustration") == "enfants" else "",
+        vt=e(v["titre"]), vx=e(v["texte"]), vs=e(v.get("source", "")), vz=e(v.get("zone", "MONDE · ONU")), sf=17 if tall else 14, illu_svg={"enfants": enfants_svg, "monde": monde_svg}.get(v.get("illustration", "monde"), lambda: "")(),
         cartes=cartes, source=e(d.get("source", "")), question=e(d.get("question", "")),
         ggap=22 if tall else 16, fw=84 if tall else 70, ap=30 if tall else 18, af=38 if tall else 30,
     )
