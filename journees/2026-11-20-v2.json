@@ -1,0 +1,11 @@
+{
+  "jour": "20", "mois": "NOVEMBRE",
+  "titre": "Journée mondiale de l'enfance",
+  "question": "1 seul pays au monde n'a jamais ratifié la <em>Convention des droits de l'enfant</em> !",
+  "reponse": "Devinez lequel ? Dites-le en commentaire !",
+  "stats": [{"v": "1989", "l": "L'ONU adopte la Convention"}, {"v": "196", "l": "États l'ont ratifiée"}],
+  "message": "Protégé, à l'école, soigné, écouté : chaque enfant a des droits.",
+  "source": "UNICEF · ONU",
+  "c1": "#ffd23f", "c2": "#ff8a3d",
+  "illustration": "enfants"
+}
