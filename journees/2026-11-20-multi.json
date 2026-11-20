@@ -1,0 +1,53 @@
+{
+  "jour": "20",
+  "mois": "NOVEMBRE",
+  "accroche": "7 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "titre": "Journée mondiale de l'enfance",
+    "texte": "Le 20/11/1989, l'ONU adopte la Convention des droits de l'enfant. 196 États l'ont ratifiée.",
+    "illustration": "enfants"
+  },
+  "cartes": [
+    {
+      "zone": "AFRIQUE",
+      "drapeau": "afrique",
+      "titre": "Industrialisation de l'Afrique",
+      "texte": "Proclamée par l'ONU en 1989 : l'industrie, moteur d'emplois."
+    },
+    {
+      "zone": "MEXIQUE",
+      "drapeau": "mexique",
+      "titre": "Jour de la Révolution",
+      "texte": "La Révolution mexicaine a commencé le 20 novembre 1910."
+    },
+    {
+      "zone": "BRÉSIL",
+      "drapeau": "bresil",
+      "titre": "Jour de la Conscience noire",
+      "texte": "Hommage à Zumbi dos Palmares, héros afro-brésilien mort en 1695."
+    },
+    {
+      "zone": "ARGENTINE",
+      "drapeau": "argentine",
+      "titre": "Souveraineté nationale",
+      "texte": "Souvenir de la bataille de la Vuelta de Obligado (1845)."
+    },
+    {
+      "zone": "VIETNAM",
+      "drapeau": "vietnam",
+      "titre": "Journée des enseignants",
+      "texte": "Le pays rend hommage à ses professeurs depuis 1982."
+    },
+    {
+      "zone": "MONDE",
+      "drapeau": "trans",
+      "titre": "Journée du souvenir trans",
+      "texte": "Depuis 1999, en mémoire des personnes trans victimes de violences."
+    }
+  ],
+  "source": "ONU · UNICEF · UA",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d",
+  "question": "Laquelle vous touche le plus ? Dites-le en commentaire !"
+}
