@@ -1,0 +1,40 @@
+{
+  "jour": "21",
+  "mois": "NOVEMBRE",
+  "accroche": "4 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU",
+    "titre": "Journée mondiale de la télévision",
+    "texte": "Proclamée par l'ONU en 1996 : la télé, un outil majeur pour informer et éclairer l'opinion.",
+    "illustration": "monde",
+    "source": "ONU · Résolution A/RES/51/205 (1996)"
+  },
+  "cartes": [
+    {
+      "zone": "MONDE",
+      "drapeau": "monde",
+      "titre": "Journée mondiale de la pêche",
+      "texte": "Hommage aux communautés de pêcheurs et à la santé des océans.",
+      "source": "Gouvernement sud-africain (gov.za)"
+    },
+    {
+      "zone": "UKRAINE",
+      "drapeau": "ukraine",
+      "titre": "Jour de la dignité et liberté",
+      "texte": "Souvenir de la Révolution orange (2004) et de l'Euromaïdan (2013).",
+      "source": "Décret présidentiel (Ukraine, 2014)"
+    },
+    {
+      "zone": "BANGLADESH",
+      "drapeau": "bangladesh",
+      "titre": "Journée des forces armées",
+      "texte": "Le 21/11/1971, armée, marine et aviation lancent une offensive commune.",
+      "source": "Armed Forces Division (afd.gov.bd)"
+    }
+  ],
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d",
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !"
+}

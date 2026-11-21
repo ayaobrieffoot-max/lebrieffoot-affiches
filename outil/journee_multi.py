@@ -31,6 +31,8 @@ DRAPEAUX = {
     "trans": '<svg viewBox="0 0 60 40"><rect width="60" height="8" fill="#5bcefa"/><rect y="8" width="60" height="8" fill="#f5a9b8"/><rect y="16" width="60" height="8" fill="#fff"/><rect y="24" width="60" height="8" fill="#f5a9b8"/><rect y="32" width="60" height="8" fill="#5bcefa"/></svg>',
     "afrique": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#078930"/><rect y="13.3" width="60" height="13.4" fill="#fcdd09"/><rect y="26.7" width="60" height="13.3" fill="#da121a"/><path d="M14 32 V20 l8 5 v-5 l8 5 v-5 l8 5 V12 h5 v20z" fill="#12123a"/></svg>',
     "monde": '<svg viewBox="0 0 60 40"><rect width="60" height="40" rx="4" fill="#3a86ff"/><circle cx="30" cy="20" r="14" fill="none" stroke="#fff" stroke-width="2.5"/><ellipse cx="30" cy="20" rx="6" ry="14" fill="none" stroke="#fff" stroke-width="2"/><line x1="16" y1="20" x2="44" y2="20" stroke="#fff" stroke-width="2"/></svg>',
+    "ukraine": '<svg viewBox="0 0 60 40"><rect width="60" height="20" fill="#0057b7"/><rect y="20" width="60" height="20" fill="#ffd700"/></svg>',
+    "bangladesh": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#006a4e"/><circle cx="27" cy="20" r="12" fill="#f42a41"/></svg>',
 }
 
 GABARIT = """<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
