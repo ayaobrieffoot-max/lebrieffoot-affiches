@@ -1,0 +1,40 @@
+{
+  "date": "Samedi 21 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue 1",
+      "title": "Le PSG débarque sur la Riviera",
+      "detail": "Nice-PSG ce samedi à 17h15 pour la 11e journée de Ligue 1.",
+      "react": "Nice va-t-il faire tomber Paris ? 🦅",
+      "source": "Foot Mercato · Soccerway"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "Mille offre le succès à Troyes",
+      "detail": "Doublé d'Antoine Mille : l'Estac bat Le Havre 3-1 vendredi soir.",
+      "react": "L'Estac a sorti le grand jeu ! 🔥",
+      "source": "Maxifoot · Sofascore"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "Lille-OL, le choc du soir",
+      "detail": "Lille reçoit Lyon ce samedi à 20h45, en multiplex avec 3 autres matchs.",
+      "react": "Dogues ou Gones, ton prono ? 🐶🦁",
+      "source": "Deux-Zéro · Match en Direct"
+    },
+    {
+      "tag": "Liga",
+      "title": "Le Real vise une 9e de suite",
+      "detail": "Huit victoires d'affilée : le Real reçoit le Celta ce samedi à 21h.",
+      "react": "Qui arrête la machine Mourinho ? 🤔",
+      "source": "Real Madrid · Le Journal du Real"
+    },
+    {
+      "tag": "Premier League",
+      "title": "Arsenal, leader sous pression",
+      "detail": "5 points d'avance : Arsenal va à Newcastle ce samedi, sans Saka.",
+      "react": "Les Gunners vont tenir le choc ? 💣",
+      "source": "Goal · Sports Mole"
+    }
+  ]
+}
