@@ -1,0 +1,18 @@
+{
+  "jour": "22",
+  "mois": "NOVEMBRE",
+  "accroche": "1 cause à connaître",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "ASIE · LIBAN",
+    "titre": "Fête de l'indépendance du Liban",
+    "texte": "Le 22 novembre 1943, le Liban met fin au mandat français. En 2026, il fête 83 ans d'indépendance.",
+    "illustration": "monde",
+    "source": "Présidence du Conseil des ministres (Liban)"
+  },
+  "cartes": [],
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d",
+  "question": "Connaissiez-vous cette date ? Dites-le en commentaire !"
+}
