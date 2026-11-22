@@ -1,0 +1,40 @@
+{
+  "date": "Dimanche 22 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue 1",
+      "title": "Le PSG s'en sort à Nice 3-2",
+      "detail": "8e succès de rang malgré Amoura : Paris file à +5 en tête de L1.",
+      "react": "Qui pour arrêter Paris ? 🤔🔴🔵",
+      "source": "Flashscore · ESPN"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "L'OL fait tomber Lille 1-0",
+      "detail": "Bidstrup offre à Carlos Vicens une victoire pour sa 1re sur le banc.",
+      "react": "L'effet Vicens, déjà ? 😏🦁",
+      "source": "Flashscore · Olympique-et-Lyonnais"
+    },
+    {
+      "tag": "Liga",
+      "title": "Le Real renverse le Celta 2-1",
+      "detail": "Mbappé rate un penalty, Bellingham et Espí sauvent les Merengues.",
+      "react": "Kylian, tu visais la lune ? 🚀😅",
+      "source": "Flashscore · VAVEL"
+    },
+    {
+      "tag": "Premier League",
+      "title": "Leeds atomise Chelsea 4-1",
+      "detail": "Les Blues s'effondrent à Stamford Bridge et se font doubler.",
+      "react": "Chelsea, c'était quoi ça ? 😳",
+      "source": "ESPN · 101 Great Goals"
+    },
+    {
+      "tag": "Premier League",
+      "title": "Arsenal accroché à Newcastle",
+      "detail": "2-2 à St James' Park, les Gunners restent en tête du championnat.",
+      "react": "Les Gunners ont calé… 👀",
+      "source": "Flashscore · 101 Great Goals"
+    }
+  ]
+}
