@@ -1,0 +1,40 @@
+{
+  "date": "Lundi 23 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue 1",
+      "title": "Le Mans renverse l'OM 3-2",
+      "detail": "Menés 2-0, les Manceaux gagnent au Vélodrome et stoppent la série.",
+      "react": "Le Vélodrome n'en revient pas 😱",
+      "source": "Franceinfo · Orange Sports"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "Le Paris FC écrase Angers 4-0",
+      "detail": "Large succès à domicile : le PFC devient seul dauphin du PSG.",
+      "react": "Un derby parisien pour le titre ? 👀",
+      "source": "Eurosport · Orange Sports"
+    },
+    {
+      "tag": "Premier League",
+      "title": "Liverpool étrille United 4-0",
+      "detail": "Réduits à 10, les Mancuniens gâchent la 1re de Pochettino.",
+      "react": "Bienvenue en Angleterre, Poch 😬",
+      "source": "ESPN · Al Jazeera"
+    },
+    {
+      "tag": "Liga",
+      "title": "Le Barça renverse Villarreal",
+      "detail": "Mené d'entrée, le Barça s'impose 3-2 grâce à un csc de Pau Navarro.",
+      "react": "Merci du cadeau, Pau ! 🎁😅",
+      "source": "ESPN · beIN Sports"
+    },
+    {
+      "tag": "Serie A",
+      "title": "Milan cartonne Frosinone 5-1",
+      "detail": "Les Rossoneri se lâchent à domicile et signent un large succès.",
+      "react": "Milan a sorti le rouleau 🔴⚫",
+      "source": "ESPN · SuperSport"
+    }
+  ]
+}
