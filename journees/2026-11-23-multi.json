@@ -1,0 +1,47 @@
+{
+  "jour": "23",
+  "mois": "NOVEMBRE",
+  "accroche": "5 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · OMS",
+    "titre": "Semaine mondiale contre la résistance aux antimicrobiens",
+    "texte": "Jusqu'au 24 novembre. Thème 2026 : « Une seule santé, une seule action : prévenir la RAM maintenant ».",
+    "illustration": "monde",
+    "source": "OMS · FAO · OMSA · PNUE"
+  },
+  "cartes": [
+    {
+      "zone": "JAPON",
+      "drapeau": "japon",
+      "titre": "Fête de gratitude du travail",
+      "texte": "La loi invite à honorer le travail et à se remercier les uns les autres.",
+      "source": "Cabinet Office (Japon)"
+    },
+    {
+      "zone": "CAMBODGE",
+      "drapeau": "cambodge",
+      "titre": "Fête des eaux (Bon Om Touk)",
+      "texte": "Trois jours fériés au Cambodge, du 23 au 25 novembre 2026.",
+      "source": "Sous-décret n° 167 (Cambodge)"
+    },
+    {
+      "zone": "SLOVÉNIE",
+      "drapeau": "slovenie",
+      "titre": "Jour de Rudolf Maister",
+      "texte": "Hommage au général qui défendit Maribor et la frontière nord en 1918.",
+      "source": "Gouvernement slovène (gov.si)"
+    },
+    {
+      "zone": "GÉORGIE",
+      "drapeau": "georgie",
+      "titre": "Saint-Georges (Guiorgoba)",
+      "texte": "Jour férié en l'honneur du saint patron du pays.",
+      "source": "Office national du tourisme de Géorgie"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}
