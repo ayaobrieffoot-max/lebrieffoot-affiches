@@ -1,0 +1,54 @@
+{
+  "jour": "29",
+  "mois": "NOVEMBRE",
+  "accroche": "6 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU",
+    "titre": "Journée internationale de solidarité avec le peuple palestinien",
+    "texte": "Date liée à la résolution 181 de l'ONU du 29 novembre 1947 ; célébrée chaque année depuis 1977.",
+    "illustration": "monde",
+    "source": "Nations Unies – UNISPAL"
+  },
+  "cartes": [
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "Femmes défenseures des droits",
+      "texte": "Hommage aux femmes qui défendent les droits humains.",
+      "source": "ONU Femmes"
+    },
+    {
+      "zone": "AMÉRIQUES",
+      "drapeau": "monde",
+      "titre": "Journée internationale du jaguar",
+      "texte": "Célébrée depuis 2018 pour protéger le plus grand félin d'Amérique.",
+      "source": "PNUD · CMS (PNUE)"
+    },
+    {
+      "zone": "MONDE",
+      "drapeau": "monde",
+      "titre": "1er dimanche de l'Avent",
+      "texte": "Début de l'année liturgique chrétienne, jusqu'au 24 décembre.",
+      "source": "Calendrier liturgique"
+    },
+    {
+      "zone": "ALBANIE",
+      "drapeau": "albanie",
+      "titre": "Jour de la Libération",
+      "texte": "Commémore la libération du pays en 1944.",
+      "source": "Gouvernement albanais (kryeministria.al)"
+    },
+    {
+      "zone": "LIBERIA",
+      "drapeau": "liberia",
+      "titre": "Anniversaire de W. V. S. Tubman",
+      "texte": "Né en 1895, ce président a donné le droit de vote aux femmes.",
+      "source": "Min. des Affaires étrangères du Liberia"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

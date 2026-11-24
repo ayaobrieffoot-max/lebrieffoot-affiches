@@ -1,0 +1,61 @@
+{
+  "jour": "30",
+  "mois": "NOVEMBRE",
+  "accroche": "7 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU · OIAC",
+    "titre": "Souvenir de toutes les victimes de la guerre chimique",
+    "texte": "Date fixée par les États parties à la Convention sur les armes chimiques en 2015.",
+    "illustration": "monde",
+    "source": "ONU · OIAC (opcw.org)"
+  },
+  "cartes": [
+    {
+      "zone": "BARBADE",
+      "drapeau": "barbade",
+      "titre": "60 ans d'indépendance",
+      "texte": "Indépendante en 1966, la Barbade est une république depuis 2021.",
+      "source": "Gouvernement de la Barbade"
+    },
+    {
+      "zone": "MONDE",
+      "drapeau": "monde",
+      "titre": "Villes pour la vie",
+      "texte": "Plus de 2 000 villes s'illuminent contre la peine de mort.",
+      "source": "Communauté de Sant'Egidio · Amnesty"
+    },
+    {
+      "zone": "YÉMEN",
+      "drapeau": "yemen",
+      "titre": "Fête de l'indépendance",
+      "texte": "Fin de la présence britannique à Aden le 30 novembre 1967.",
+      "source": "Présidence du Yémen"
+    },
+    {
+      "zone": "PHILIPPINES",
+      "drapeau": "philippines",
+      "titre": "Jour de Bonifacio",
+      "texte": "Né le 30 novembre 1863, Andrés Bonifacio est un héros national.",
+      "source": "Proclamation n° 1006 (Philippines)"
+    },
+    {
+      "zone": "ÉCOSSE",
+      "drapeau": "ecosse",
+      "titre": "Saint-André",
+      "texte": "Jour férié en l'honneur du saint patron de l'Écosse.",
+      "source": "Gouvernement écossais (gov.scot)"
+    },
+    {
+      "zone": "ROUMANIE",
+      "drapeau": "roumanie",
+      "titre": "Saint-André",
+      "texte": "Jour férié pour le saint patron de la Roumanie.",
+      "source": "Code du travail roumain (art. 139)"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

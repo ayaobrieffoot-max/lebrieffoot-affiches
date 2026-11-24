@@ -1,0 +1,54 @@
+{
+  "jour": "25",
+  "mois": "NOVEMBRE",
+  "accroche": "6 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU",
+    "titre": "Élimination de la violence à l'égard des femmes",
+    "texte": "Victime ou témoin en France ? Appelez le 3919 : gratuit, anonyme, 24 h/24 et 7 j/7.",
+    "illustration": "monde",
+    "source": "ONU · ONU Femmes · solidarites.gouv.fr"
+  },
+  "cartes": [
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "16 jours d'activisme",
+      "texte": "Contre la violence faite aux femmes, du 25 nov. au 10 déc.",
+      "source": "ONU Femmes – campagne UNiTE"
+    },
+    {
+      "zone": "SURINAME",
+      "drapeau": "suriname",
+      "titre": "Fête de l'indépendance",
+      "texte": "Indépendant des Pays-Bas depuis le 25 novembre 1975.",
+      "source": "DFAE suisse · Mission du Suriname (ONU)"
+    },
+    {
+      "zone": "BOSNIE-HERZÉGOVINE",
+      "drapeau": "bosnie",
+      "titre": "Jour de l'État",
+      "texte": "Rappelle la session fondatrice du ZAVNOBiH du 25 novembre 1943.",
+      "source": "Gouvernement suédois – fêtes nationales"
+    },
+    {
+      "zone": "CAMBODGE",
+      "drapeau": "cambodge",
+      "titre": "Fête des eaux (Bon Om Touk)",
+      "texte": "Dernier des trois jours fériés, du 23 au 25 novembre 2026.",
+      "source": "Sous-décret n° 167 (Cambodge)"
+    },
+    {
+      "zone": "EUROPE",
+      "drapeau": "europe",
+      "titre": "Semaine de réduction des déchets",
+      "texte": "Du 21 au 29 novembre : moins jeter, mieux consommer.",
+      "source": "ADEME – SERD 2026"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

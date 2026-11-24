@@ -1,0 +1,40 @@
+{
+  "jour": "2",
+  "mois": "DÉCEMBRE",
+  "accroche": "4 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU",
+    "titre": "Journée internationale pour l'abolition de l'esclavage",
+    "texte": "Environ 50 millions de personnes vivaient en esclavage moderne en 2021, selon l'OIT.",
+    "illustration": "monde",
+    "source": "Nations Unies · OIT"
+  },
+  "cartes": [
+    {
+      "zone": "ÉMIRATS ARABES UNIS",
+      "drapeau": "emirats",
+      "titre": "Fête nationale (Eid Al Etihad)",
+      "texte": "55e anniversaire de l'union du 2 décembre 1971.",
+      "source": "Gouvernement des EAU (u.ae)"
+    },
+    {
+      "zone": "LAOS",
+      "drapeau": "laos",
+      "titre": "Fête nationale",
+      "texte": "République proclamée le 2 décembre 1975.",
+      "source": "KPL – agence de presse lao"
+    },
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "16 jours d'activisme",
+      "texte": "Contre la violence faite aux femmes, du 25 nov. au 10 déc.",
+      "source": "ONU Femmes – campagne UNiTE"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

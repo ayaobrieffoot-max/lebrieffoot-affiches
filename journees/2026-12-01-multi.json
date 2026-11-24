@@ -1,0 +1,61 @@
+{
+  "jour": "1er",
+  "mois": "DÉCEMBRE",
+  "accroche": "7 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU · ONUSIDA",
+    "titre": "Journée mondiale de lutte contre le sida",
+    "texte": "Thème 2026 : « Mettre fin au sida commence par l'accès ». 1,2 million de nouvelles infections en 2025.",
+    "illustration": "monde",
+    "source": "ONUSIDA (unaids.org)"
+  },
+  "cartes": [
+    {
+      "zone": "CENTRAFRIQUE",
+      "drapeau": "centrafrique",
+      "titre": "Fête nationale",
+      "texte": "Proclamation de la République le 1er décembre 1958.",
+      "source": "EUAM RCA (eeas.europa.eu)"
+    },
+    {
+      "zone": "TCHAD",
+      "drapeau": "tchad",
+      "titre": "Liberté et Démocratie",
+      "texte": "Commémore le 1er décembre 1990, jour férié au Tchad.",
+      "source": "Présidence du Tchad"
+    },
+    {
+      "zone": "ROUMANIE",
+      "drapeau": "roumanie",
+      "titre": "Fête nationale – Grande Union",
+      "texte": "Rappelle l'union de 1918, il y a 108 ans.",
+      "source": "Liste UE des fériés 2026 (EMA)"
+    },
+    {
+      "zone": "PORTUGAL",
+      "drapeau": "portugal",
+      "titre": "Restauration de l'indépendance",
+      "texte": "Rappelle 1640 et la fin de l'union avec l'Espagne.",
+      "source": "Liste UE des fériés 2026 (EMA)"
+    },
+    {
+      "zone": "COSTA RICA",
+      "drapeau": "costarica",
+      "titre": "Abolition de l'armée",
+      "texte": "Le pays a supprimé son armée en 1948.",
+      "source": "Ministère du Travail (mtss.go.cr)"
+    },
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "16 jours d'activisme",
+      "texte": "Contre la violence faite aux femmes, du 25 nov. au 10 déc.",
+      "source": "ONU Femmes – campagne UNiTE"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

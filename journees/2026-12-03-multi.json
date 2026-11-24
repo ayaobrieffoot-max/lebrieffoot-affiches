@@ -1,0 +1,40 @@
+{
+  "jour": "3",
+  "mois": "DÉCEMBRE",
+  "accroche": "4 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU",
+    "titre": "Journée internationale des personnes handicapées",
+    "texte": "Proclamée en 1992. En 2026, la Convention de l'ONU sur leurs droits fête ses 20 ans.",
+    "illustration": "monde",
+    "source": "ONU – Résolution A/RES/47/3"
+  },
+  "cartes": [
+    {
+      "zone": "AMÉRIQUES · OPS",
+      "drapeau": "monde",
+      "titre": "Journée de la médecine",
+      "texte": "Hommage à Carlos Finlay, qui a relié moustique et fièvre jaune.",
+      "source": "OPS / PAHO"
+    },
+    {
+      "zone": "MONDE",
+      "drapeau": "monde",
+      "titre": "Journée sans pesticides",
+      "texte": "Créée en 1998 en mémoire de la catastrophe de Bhopal (1984).",
+      "source": "FAO · PAN International"
+    },
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "16 jours d'activisme",
+      "texte": "Contre la violence faite aux femmes, du 25 nov. au 10 déc.",
+      "source": "ONU Femmes – campagne UNiTE"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

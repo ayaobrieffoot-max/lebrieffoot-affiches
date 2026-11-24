@@ -1,0 +1,54 @@
+{
+  "jour": "4",
+  "mois": "DÉCEMBRE",
+  "accroche": "6 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "FRANCE · AFM-TÉLÉTHON",
+    "titre": "Téléthon 2026 : 40e édition",
+    "texte": "Les 4 et 5 décembre, la France se mobilise contre les maladies rares. Slogan : « Renverser la maladie ».",
+    "illustration": "enfants",
+    "source": "AFM-Téléthon"
+  },
+  "cartes": [
+    {
+      "zone": "MONDE · ONU",
+      "drapeau": "monde",
+      "titre": "Journée des banques",
+      "texte": "Créée par l'ONU en 2019 (résolution 74/245).",
+      "source": "ONU – Résolution 74/245"
+    },
+    {
+      "zone": "GHANA",
+      "drapeau": "ghana",
+      "titre": "Journée des agriculteurs",
+      "texte": "Jour férié : 42e édition, organisée à Sunyani.",
+      "source": "Ministère de l'Intérieur du Ghana"
+    },
+    {
+      "zone": "MYANMAR",
+      "drapeau": "myanmar",
+      "titre": "Fête nationale",
+      "texte": "Rappelle les manifestations étudiantes de 1920.",
+      "source": "Gouvernement du Myanmar (ais.gov.mm)"
+    },
+    {
+      "zone": "MONDE",
+      "drapeau": "monde",
+      "titre": "Hanoukka (début au soir)",
+      "texte": "Fête juive des lumières, du 4 au 12 décembre 2026.",
+      "source": "Chabad.org"
+    },
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "16 jours d'activisme",
+      "texte": "Contre la violence faite aux femmes, du 25 nov. au 10 déc.",
+      "source": "ONU Femmes – campagne UNiTE"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

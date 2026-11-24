@@ -1,0 +1,33 @@
+{
+  "jour": "27",
+  "mois": "NOVEMBRE",
+  "accroche": "3 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · ONU FEMMES",
+    "titre": "16 jours d'activisme contre la violence faite aux femmes",
+    "texte": "Thème 2026 : « Garantir la justice, protéger les survivantes, mettre fin à l'impunité ».",
+    "illustration": "monde",
+    "source": "ONU Femmes – campagne UNiTE"
+  },
+  "cartes": [
+    {
+      "zone": "EUROPE",
+      "drapeau": "europe",
+      "titre": "Semaine de réduction des déchets",
+      "texte": "Jusqu'au 29 novembre ; thème 2026 : l'usage responsable des ressources.",
+      "source": "ADEME – SERD 2026"
+    },
+    {
+      "zone": "ÉTATS-UNIS",
+      "drapeau": "usa",
+      "titre": "Journée du patrimoine amérindien",
+      "texte": "Instituée par une loi de 2009, le lendemain de Thanksgiving.",
+      "source": "Congrès américain (Public Law 111-33)"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}

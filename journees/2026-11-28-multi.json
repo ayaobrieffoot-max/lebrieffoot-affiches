@@ -1,0 +1,61 @@
+{
+  "jour": "28",
+  "mois": "NOVEMBRE",
+  "accroche": "7 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "AFRIQUE · MAURITANIE",
+    "titre": "Fête de l'indépendance de la Mauritanie",
+    "texte": "Indépendante le 28 novembre 1960 : la Mauritanie fête ses 66 ans d'indépendance.",
+    "illustration": "monde",
+    "source": "Présidence de la République (presidence.mr)"
+  },
+  "cartes": [
+    {
+      "zone": "TCHAD",
+      "drapeau": "tchad",
+      "titre": "Proclamation de la République",
+      "texte": "La République du Tchad est proclamée le 28 novembre 1958.",
+      "source": "Gouvernement du Tchad · ONU Tchad"
+    },
+    {
+      "zone": "CONGO-BRAZZAVILLE",
+      "drapeau": "congo",
+      "titre": "Fête de la République",
+      "texte": "Proclamation de la République le 28 novembre 1958.",
+      "source": "Les Dépêches de Brazzaville"
+    },
+    {
+      "zone": "ALBANIE",
+      "drapeau": "albanie",
+      "titre": "Indépendance et drapeau",
+      "texte": "Indépendance proclamée le 28 novembre 1912, il y a 114 ans.",
+      "source": "Ambassade d'Albanie (gov.al)"
+    },
+    {
+      "zone": "PANAMA",
+      "drapeau": "panama",
+      "titre": "Indépendance face à l'Espagne",
+      "texte": "Le Panama se libère de l'Espagne le 28 novembre 1821.",
+      "source": "Calendrier officiel des fériés (Panama)"
+    },
+    {
+      "zone": "TIMOR ORIENTAL",
+      "drapeau": "timor",
+      "titre": "Proclamation de l'indépendance",
+      "texte": "Proclamée à Dili le 28 novembre 1975.",
+      "source": "TATOLI – agence de presse d'État"
+    },
+    {
+      "zone": "MONDE · ONU FEMMES",
+      "drapeau": "orange",
+      "titre": "16 jours d'activisme",
+      "texte": "Contre la violence faite aux femmes, du 25 nov. au 10 déc.",
+      "source": "ONU Femmes – campagne UNiTE"
+    }
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}
