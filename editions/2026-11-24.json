@@ -1,0 +1,40 @@
+{
+  "date": "Mardi 24 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue des champions",
+      "title": "Le PSG sans Doué contre la Roma",
+      "detail": "Touché au genou face à Nice, Doué rate la Roma mercredi, comme Kvara.",
+      "react": "Luis Enrique va devoir bricoler 🛠️",
+      "source": "UEFA · ESPN"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Lens à Leipzig pour se relever",
+      "detail": "Après le 9-1 encaissé à Côme, le RCL joue à Leipzig ce soir à 21 h.",
+      "react": "On ferme la boutique ce soir ? 🔒😅",
+      "source": "UEFA · ESPN"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Le Real vise le 5 sur 5",
+      "detail": "4 victoires en 4 matchs de C1 : Madrid reçoit le PSV ce soir à 21 h.",
+      "react": "Qui va arrêter Madrid ? 👀",
+      "source": "UEFA · Dongqiudi"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Arsenal-Dortmund sans Raya",
+      "detail": "Blessé à l'épaule à Newcastle, Raya rate le choc de ce soir à 21 h.",
+      "react": "Les Gunners tiendront sans lui ? 🧤",
+      "source": "UEFA · Dongqiudi"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "City-Naples, le choc du soir",
+      "detail": "Haaland et City reçoivent Naples et De Bruyne ce soir à 21 h.",
+      "react": "KDB, retour chez lui en ennemi ? 😏",
+      "source": "UEFA · The Sports Encounter"
+    }
+  ]
+}
