@@ -37,6 +37,10 @@ DRAPEAUX = {
     "georgie": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#fff"/><rect x="26" width="8" height="40" fill="#ff0000"/><rect y="16" width="60" height="8" fill="#ff0000"/><g fill="#ff0000"><rect x="11" y="5" width="2" height="6"/><rect x="9" y="7" width="6" height="2"/><rect x="47" y="5" width="2" height="6"/><rect x="45" y="7" width="6" height="2"/><rect x="11" y="29" width="2" height="6"/><rect x="9" y="31" width="6" height="2"/><rect x="47" y="29" width="2" height="6"/><rect x="45" y="31" width="6" height="2"/></g></svg>',
     "ukraine": '<svg viewBox="0 0 60 40"><rect width="60" height="20" fill="#0057b7"/><rect y="20" width="60" height="20" fill="#ffd700"/></svg>',
     "bangladesh": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#006a4e"/><circle cx="27" cy="20" r="12" fill="#f42a41"/></svg>',
+    "turquie": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#e30a17"/><circle cx="22" cy="20" r="10" fill="#fff"/><circle cx="24.5" cy="20" r="8" fill="#e30a17"/><path d="M33 20 l9.5 -3.1 l-5.9 8.1 v-10 l5.9 8.1z" fill="#fff"/></svg>',
+    "inde": '<svg viewBox="0 0 60 40"><rect width="60" height="13.3" fill="#ff9933"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#138808"/><circle cx="30" cy="20" r="5" fill="none" stroke="#000080" stroke-width="1.2"/><circle cx="30" cy="20" r="1" fill="#000080"/></svg>',
+    "srilanka": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#ffbe29"/><rect x="3" y="3" width="6" height="34" fill="#005f56"/><rect x="9" y="3" width="6" height="34" fill="#eb7400"/><rect x="18" y="3" width="39" height="34" fill="#8d153a"/><path d="M28 28 q2 -10 8 -12 q4 -3 8 0 q4 3 2 8 l-3 4z" fill="#ffbe29"/></svg>',
+    "laos": '<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#ce1126"/><rect y="10" width="60" height="20" fill="#002868"/><circle cx="30" cy="20" r="8" fill="#fff"/></svg>',
 }
 
 GABARIT = """<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>

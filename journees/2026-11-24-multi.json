@@ -1,0 +1,24 @@
+{
+  "jour": "24",
+  "mois": "NOVEMBRE",
+  "accroche": "6 causes, 1 seule date",
+  "sous": "Ce que le monde célèbre aujourd'hui",
+  "vedette": {
+    "zone": "MONDE · OMS",
+    "titre": "Semaine mondiale contre la résistance aux antimicrobiens",
+    "texte": "Dernier jour ! Thème 2026 : « Une seule santé, une seule action : prévenir la RAM maintenant ».",
+    "illustration": "monde",
+    "source": "OMS · FAO · OMSA · PNUE"
+  },
+  "cartes": [
+    {"zone": "TURQUIE", "drapeau": "turquie", "titre": "Journée des enseignants", "texte": "Chaque 24 novembre, élèves et familles remercient leurs professeurs.", "source": "Ministère de l'Éducation (meb.gov.tr)"},
+    {"zone": "VIETNAM", "drapeau": "vietnam", "titre": "Journée de la culture vietnamienne", "texte": "Nouveau jour férié payé pour célébrer et partager la culture du pays.", "source": "Résolution 28/2026/QH16 · hatinh.gov.vn"},
+    {"zone": "INDE", "drapeau": "inde", "titre": "Guru Nanak Jayanti", "texte": "Naissance de Guru Nanak, fondateur du sikhisme. Jour férié en Inde.", "source": "Gouvernement de l'Inde (congés 2026)"},
+    {"zone": "SRI LANKA", "drapeau": "srilanka", "titre": "Il Poya (pleine lune)", "texte": "Jour férié bouddhiste de la pleine lune du mois d'Il.", "source": "Calendrier officiel (documents.gov.lk)"},
+    {"zone": "LAOS", "drapeau": "laos", "titre": "Fête du That Luang", "texte": "Grande fête bouddhiste autour du stupa, symbole national, à Vientiane.", "source": "Tourisme Laos (tourismlaos.org)"}
+  ],
+  "question": "Selon vous, laquelle de ces journées est la plus méconnue ? Dites-le en commentaire !",
+  "source": "Faits vérifiés auprès de sources officielles",
+  "c1": "#ffd23f",
+  "c2": "#ff8a3d"
+}
