@@ -1,0 +1,40 @@
+{
+  "date": "Mercredi 25 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue des champions",
+      "title": "Mbappé régale, le Real en met 5",
+      "detail": "Doublé de Kylian : Madrid écrase le PSV 5-1 après la pause à Bernabéu.",
+      "react": "Qui peut encore l'arrêter ? 🚀🔥",
+      "source": "France 24 · Sofascore"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Lens chute à Leipzig",
+      "detail": "Doublé d'Antonio Nusa : le RCL s'incline 3-1 en Allemagne mardi soir.",
+      "react": "Le réveil, c'est pour quand ? ⏰😬",
+      "source": "Foot Mercato · ESPN"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "PSG-Roma, ce soir au Parc",
+      "detail": "Paris reçoit la Roma à 21 h pour la 5e journée de la phase de ligue.",
+      "react": "Le Parc va-t-il chanter ce soir ? 🔴🔵",
+      "source": "Sortir à Paris · Sport Flash"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Arsenal accroché par Dortmund",
+      "detail": "Gyökeres ouvre le score, Beier égalise : 1-1 à l'Emirates.",
+      "react": "Les Gunners ont calé 🔫😅",
+      "source": "Sky Sports · NBC Sports"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "City et Naples, nul fou",
+      "detail": "2-2 à l'Etihad et belle ovation pour le retour de De Bruyne.",
+      "react": "KDB, toujours chez lui ici 💙👏",
+      "source": "Man City · Africa Top Sports"
+    }
+  ]
+}
