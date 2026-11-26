@@ -1,0 +1,40 @@
+{
+  "date": "Jeudi 26 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue des champions",
+      "title": "La Roma freine le PSG",
+      "detail": "2-2 au Parc : Paris perd son sans-faute et la 1re place de la phase.",
+      "react": "Premier accroc, on s'inquiète ? 🤔🔴",
+      "source": "Foot Mercato · Ouest-France"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Lille fait tomber le Bayern !",
+      "detail": "Menés à la pause, les Dogues renversent Munich 2-1 au stade Pierre-Mauroy.",
+      "react": "Le LOSC, c'est du sérieux 🐶🔥",
+      "source": "ESPN · Bundesliga.com"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Le Barça cartonne à Bakou",
+      "detail": "Doublé d'Anthony Gordon : Barcelone s'impose 4-1 chez Sabah.",
+      "react": "Bakou, c'était le Camp Nou ? 😅🔵🔴",
+      "source": "TNT Sports · ESPN"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Liverpool corrige Bruges",
+      "detail": "Doublé d'Isak et bijou de Wirtz : les Reds gagnent 3-0 en Belgique.",
+      "react": "Dur réveil pour Bruges 😬🇧🇪",
+      "source": "ESPN · beIN Sports"
+    },
+    {
+      "tag": "Ligue des champions",
+      "title": "Man United tenu à Lisbonne",
+      "detail": "Le Sporting et United se quittent sur un nul 2-2 très animé.",
+      "react": "Les Red Devils ont calé 😴",
+      "source": "AP · Blueprint"
+    }
+  ]
+}
