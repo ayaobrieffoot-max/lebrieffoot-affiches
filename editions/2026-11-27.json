@@ -1,0 +1,40 @@
+{
+  "date": "Vendredi 27 novembre 2026",
+  "items": [
+    {
+      "tag": "Ligue Europa",
+      "title": "L'OM se relance en C3",
+      "detail": "Marseille bat le Levski Sofia 1-0 et reprend espoir en Ligue Europa.",
+      "react": "Le Vélodrome respire enfin ? 😮‍💨🔵",
+      "source": "CNews · France Info"
+    },
+    {
+      "tag": "Ligue Europa",
+      "title": "Monaco s'en sort à Hearts",
+      "detail": "Dans un match fou en Écosse, l'ASM arrache la victoire 3-2.",
+      "react": "Le Rocher a tremblé mais tient 🔴⚪",
+      "source": "CNews · Footeo"
+    },
+    {
+      "tag": "Ligue Europa",
+      "title": "Rennes coule à Nimègue",
+      "detail": "Battus 3-1 aux Pays-Bas, les Bretons voient le Top 8 s'éloigner.",
+      "react": "La défense était où ce soir ? 🤔",
+      "source": "Eurosport · Ouest-France"
+    },
+    {
+      "tag": "Ligue Europa",
+      "title": "L'OL calé par Lillestrøm",
+      "detail": "0-0 au Groupama Stadium : Lyon manque l'occasion de recoller.",
+      "react": "Un 0-0 à domicile, sérieux ? 😴",
+      "source": "Ouest-France · Eurofootnews"
+    },
+    {
+      "tag": "Ligue 1",
+      "title": "Brest - Paris FC ce soir",
+      "detail": "Brest reçoit le Paris FC ce vendredi soir en Ligue 1.",
+      "react": "Ton prono pour ce match ? 👀⚽",
+      "source": "Sport News Africa · Football Tunisien"
+    }
+  ]
+}
